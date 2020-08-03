@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/displayCar"
+        android:layout_width="346dp"
+        android:layout_height="390dp"
+        android:layout_marginStart="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/modelDisplay"
+        android:layout_width="254dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="28dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/descriptionDisplay"
+        app:layout_constraintEnd_toStartOf="@+id/displayPrice"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="@+id/descriptionDisplay" />
+
+    <TextView
+        android:id="@+id/displayPrice"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="28dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/descriptionDisplay"
+        app:layout_constraintEnd_toEndOf="@+id/descriptionDisplay" />
+
+    <TextView
+        android:id="@+id/descriptionDisplay"
+        android:layout_width="498dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="40dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/displayCar"
+        app:layout_constraintStart_toEndOf="@+id/displayCar"
+        app:layout_constraintTop_toTopOf="@+id/displayCar" />
+
+    <TextView
+        android:id="@+id/created_at_display"
+        android:layout_width="175dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="52dp"
+        android:text="TextView"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="@+id/descriptionDisplay"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionDisplay" />
+</android.support.constraint.ConstraintLayout>

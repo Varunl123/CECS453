@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserQuizStart"
+    android:background="@drawable/login_backgroung">
+
+    <Button
+        android:id="@+id/start_quiz_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Start Quiz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/duration_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:text="Duration"
+        android:padding="7dp"
+        android:textColor="#0E0E0E"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/start_quiz_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="1050px"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:text="PLEASE READ THE INSTRUCTIONS CAREFULLY
+        There is only ONE attempt for an user. Once the Quiz is started, you cannot return to the main menu until you click the finish button or allocated time duration for the quiz is completed.
+Question once answered cannot be changed. Score is provided at the end of the quiz.You can check the correct answers at the end of the quiz. Once you finish the quiz, your score is automatically recorded. For any queries regarding any question in quiz, please contact respective instructor. All the best"
+        android:textAlignment="textStart"
+        android:padding="10dp"
+        android:textColor="#050505"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/duration_display"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/return_home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Return Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/start_quiz_button"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

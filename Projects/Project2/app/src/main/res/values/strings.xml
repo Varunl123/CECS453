@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Photo Album</string>
+    <string name="next">Next</string>
+    <string name="gallery_view">Gallery View</string>
+    <string name="slide_show">Slide Show</string>
+    <string name="previous">Previous</string>
+    <string name="pre"><![CDATA[<<]]></string>
+    <string name="nex"><![CDATA[>>]]></string>
+
+
+</resources>

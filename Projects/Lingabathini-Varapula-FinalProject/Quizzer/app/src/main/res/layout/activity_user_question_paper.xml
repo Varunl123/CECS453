@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SetupQuestionPaper">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/userquestionText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:layout_weight="0.7"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    android:id="@+id/countdown"></TextView>
+
+                <TextView
+                    android:id="@+id/userquestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Enter the Question"
+                    android:inputType="textMultiLine"
+                    android:lineHeight="25dp"
+                    android:lines="3"
+                    android:maxLines="3"
+                    android:minLines="1"
+                    android:padding="10dp"
+                    android:scrollbars="vertical"
+                    android:textSize="16dp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radiogroup">
+                    <RadioButton
+                        android:id="@+id/radiochoice1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choice1"/>
+
+                    <RadioButton
+                        android:id="@+id/radiochoice2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choice2" />
+                    <RadioButton
+                        android:id="@+id/radiochoice3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choice3"/>
+                    <RadioButton
+                        android:id="@+id/radiochoice4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choice4"/>
+
+                </RadioGroup>
+                <Button
+                    android:id="@+id/user_next_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#03A9F4"
+                    android:text="NEXT QUESTION" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

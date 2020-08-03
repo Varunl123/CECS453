@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign UP</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="username_error">Enter a valid Username !</string>
+    <string name="password_error">Enter a valid Password !</string>
+    <string name="password_mismatch">Passwords Mismatch !</string>
+    <string name="email_error">Enter a valid Email Id !</string>
+    <string name="phone_error">Enter a valid Phone number !</string>
+    <string name="loginpage">LOGIN PAGE</string>
+    <string name="signuppage">SIGN UP PAGE</string>
+    <string name="logout">LOGOUT</string>
+</resources>

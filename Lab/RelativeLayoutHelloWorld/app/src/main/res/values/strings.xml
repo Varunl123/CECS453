@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RelativeLayoutHelloWorld</string>
+    <string name="reminder">Reminder</string>
+    <string name="done">done</string>
+    <string name="date_button">Date_Button</string>
+    <string name="time">Time</string>
+</resources>

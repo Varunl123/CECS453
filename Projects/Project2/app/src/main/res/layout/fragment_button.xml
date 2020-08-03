@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F3766B"
+    tools:context="com.example.project2.ButtonFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#03A9F4"
+        android:backgroundTint="#F2EFF6FB">
+
+        <Button
+            android:id="@+id/button_prevoius"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="105dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="48dp"
+            android:hint="@string/pre"
+            android:textColor="#352F2F"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/button_next"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button_next"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="105dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="48dp"
+            android:hint="@string/nex"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.81"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/gallaryview"
+            android:layout_width="129dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/gallery_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/slideshow"
+            android:layout_width="114dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="256dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/slide_show"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

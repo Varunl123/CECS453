@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SetupQuestionPaper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/login_backgroung"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/questionText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="#FFFFFF"
+                    android:fontFamily="casual"
+                    android:padding="10dp"
+                    android:text="Question 1"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <EditText
+                    android:id="@+id/question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF"
+                    android:hint="Enter the Question"
+                    android:inputType="textMultiLine"
+                    android:lineHeight="25dp"
+                    android:lines="3"
+                    android:maxLines="5"
+                    android:minLines="1"
+                    android:padding="10dp"
+                    android:scrollbars="vertical"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/choice1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF"
+                    android:hint="Choice 1"
+                    android:inputType="text"
+                    android:lineHeight="25dp"
+                    android:padding="10dp"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/choice2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF"
+                    android:hint="Choice 2"
+                    android:inputType="text"
+                    android:lineHeight="25dp"
+                    android:padding="10dp"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/choice3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF"
+                    android:hint="Choice 3"
+                    android:inputType="text"
+                    android:lineHeight="25dp"
+                    android:padding="10dp"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/choice4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF"
+                    android:hint="Choice 4"
+                    android:inputType="text"
+                    android:lineHeight="25dp"
+                    android:padding="10dp"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/correctAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF"
+                    android:hint="Enter the Correct Answer"
+                    android:inputType="text"
+                    android:lineHeight="25dp"
+                    android:padding="10dp"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/next_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#03BCF4"
+                    android:text="SAVE AND NEXT "></Button>
+
+                <Button
+                    android:id="@+id/exit_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#03BCF4"
+                    android:text="Exit to Main menu "
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TwoActivities</string>
+    <string name="button_main">button_main</string>
+    <string name="edittext_main">editText_main</string>
+    <string name="text_header_reply">text_header_reply</string>
+    <string name="text_header">text_header</string>
+    <string name="button_second">button_second</string>
+    <string name="edittext_second">editText_second</string>
+</resources>
